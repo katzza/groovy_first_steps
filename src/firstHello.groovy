@@ -2,7 +2,11 @@ import groovy.json.JsonBuilder
 import groovy.json.JsonSlurper
 
 //how to create groovy project in Idea   https://www.logicbig.com/tutorials/misc/groovy/intellij.html
-
+// была ошибка - нужно было подтянуть папку из библиотеки груви https://superuser.com/questions/1447345/groovy-error-groovy-internal-groovyc-error-code-1
+//If you are using Intellij or one of its variants, the problem of the missing dependency javax/xml/bind/JAXBContext might be addressed in the article Groovy with Intellij.
+//To add the JAXB Jars:  Open Project Structure dialog
+//Click Modules
+//Select the Dependencies tab and add the dependencies as shown:
 
 println "murr"
 
